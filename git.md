@@ -6,6 +6,8 @@
   name = Your name here
 [core]
   editor = code --wait
+[push]
+  followTags = true
 [alias]
   c = !git add --all && git commit -m
   s = !git status -s
